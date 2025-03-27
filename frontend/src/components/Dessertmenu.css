@@ -1,0 +1,93 @@
+.containerDessertmenu{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.headerDessert{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #ccc;
+    font-size: 32px;
+}
+
+.Dessertmenu{
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    
+}
+
+.Dessertmenu-item img{
+    width: 300px;  
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.Dessertmenu-item{
+    display: block;
+    text-align: right;
+    margin: 10px;
+}
+
+.Dessertmenu-item .Dessertmenuname{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.Dessertmenu .btn-menu{
+    background-color: rgb(6, 118, 85); 
+    color: white; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border: none;
+    border-radius: 20px;
+    margin: 7px;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 8px;
+    margin-top: 5px;
+  }
+  
+  .quantity-btn {
+    background-color: rgb(3, 67, 48);
+    color: white;
+    border: none;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quantity-btn:hover {
+    background-color: rgb(6, 143, 102);
+  }
+  
+  .quantity-input {
+    width: 40px;
+    height: 27px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid rgb(3, 67, 48);
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .quantity-input:focus {
+    border-color: rgb(6, 143, 102);
+    box-shadow: 0 0 5px rgb(6, 118, 85);
+  }

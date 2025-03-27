@@ -1,0 +1,77 @@
+.containerLogin{
+    max-width: 1200px;
+    height: 785px;
+    margin: auto;
+}
+
+
+.containerLogin h1 {
+    display: flex;
+    justify-self: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(3, 67, 48);
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.boxLogin {
+    display: flex;
+    justify-self: center;
+    box-shadow: 5px 5px 5px 5px rgba(0.1, 0.1, 0.1, 0.1);
+    padding: 10px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.formLogin {
+    display: block;
+    gap: 5px;
+}
+
+.formLogin .flexLogin{
+    display: flex;
+    margin: 30px;
+}
+
+.formLogin label{
+    width: 120px;
+    font-size: 24px;
+    align-self: center;
+    color: rgb(3, 67, 48);
+}
+
+.formLogin input {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 450px;
+    box-sizing: border-box;
+}
+
+.formLogin input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.Loginsubmit {
+    display: flex;
+    justify-self: right;
+    padding: 10px 20px;
+    background-color: rgb(6, 118, 85);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    margin-right: 28px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #f1c40f;
+    color: rgb(0, 0, 0);
+}
