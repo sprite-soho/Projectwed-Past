@@ -1,5 +1,1 @@
-โหลด vite เป็น tool เพื่อทำการใช้ React
-npm create vite@latest projectwedV2 --template react
-
-
-
+![image](https://github.com/user-attachments/assets/339f8f3a-e099-4c61-be82-2618176e611b)
